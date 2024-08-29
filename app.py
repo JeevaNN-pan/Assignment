@@ -4,7 +4,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-# Function to initialize the database
+# initialize the database
 def init_db():
     conn = sqlite3.connect('bank_branches.db')
     cursor = conn.cursor()
